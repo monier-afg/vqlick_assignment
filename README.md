@@ -6,5 +6,5 @@ https://monierafg.com/projects/vqlick_assignment/
 
 ### also source code has been upladed here.
 
-##  Note: I used Bootstrap 4 for design and the it is responsive (mobile friendly).
+##  Note: I used Bootstrap 4 for design and it is responsive (mobile friendly).
 

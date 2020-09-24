@@ -4,5 +4,7 @@
 
 [https://monierafg.com/projects/vqlick_assignment/index.php](https://monierafg.com/projects/vqlick_assignment/index.phphttp:// "https://monierafg.com/projects/vqlick_assignment/index.php")
 
-### also sorce code has been upladed here.
+### also source code has been upladed here.
+
+##  Note: I used Bootstrap 4 for design and the it is responsive (mobile friendly).
 

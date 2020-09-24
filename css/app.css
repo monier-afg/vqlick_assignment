@@ -1,0 +1,156 @@
+/* include google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Alegreya+Sans:wght@500&display=swap"); /* Using a url */
+
+
+/* global */
+
+    :root {
+
+        /* background colors */
+
+            --bg-color: #f5f6fa;
+            --nav-bg-color: #efefef;
+
+        /* font colors */
+
+            --font-color-one: #1e272e;
+            --font-color-two: #485460;
+
+        /* font familys */
+
+            /* title fonts */
+            --font-family-one: 'Acme', sans-serif;
+
+            /* body fonts */
+            --font-family-two: 'Alegreya Sans', sans-serif;
+    }
+
+/* End global */
+
+    *{
+        font-family: var(--font-family-two);
+    }
+
+    body{
+        background-color: var(--bg-color);
+        font-family: var(--font-family-two);
+    }
+
+    header nav{
+        background-color: var(--nav-bg-color);
+        font-family: var(--font-family-two);
+    }
+
+
+/* #errors */
+
+    #errors div{
+        margin: 12px 0px 0px 0px;
+    }
+
+
+
+
+/* #items */
+
+    /* section title */
+
+        #items h1{
+            padding: 20px 0px;
+            color: var(--font-color-one);
+            font-family: var(--font-family-one);
+        }
+
+
+    /* add new items */
+
+        #items .add-item .form-row div{
+            margin-bottom: 0px;
+        }
+
+        /* mobile style */
+        @media (max-width: 768px) {
+            #items .add-item .form-row div{
+                margin-bottom: 8px;
+            }
+        }
+
+        #items .add-item button{
+            width: 100%;
+        }
+
+
+    /* select items */
+
+        #items #itemsLeftList h3,
+        #items #itemsRightList h3{
+            color: var(--font-color-two);
+        }
+    
+        #items #itemsMoveButtons{
+            text-align: center;
+        }
+
+        #items #itemsMoveButtons #rightButton{
+            margin-bottom: 5px;
+        }
+
+        /* mobile style */
+        @media (max-width: 768px) {
+            #items #itemsMoveButtons #rightButton{
+                margin-bottom: 0px;
+            }
+        }
+
+        /* mobile style */
+        @media (max-width: 768px) {
+            #items #itemsMoveButtons .fa-chevron-right::before{
+                content: "\f078";
+            }
+            #items #itemsMoveButtons .fa-chevron-left::before{
+                content: "\f077";
+            }
+        }
+
+        #items #itemsLeftList .form-group,
+        #items #itemsRightList .form-group{
+            margin: 0px;
+        }
+
+        /* mobile style */
+        @media (max-width: 768px) {
+            #items #itemsLeftList .form-group,
+            #items #itemsRightList .form-group,
+            #items #itemsMoveButtons{
+                margin-bottom: 8px;
+            }
+        }
+
+
+        #items .list-box{
+            height: 250px;
+            background-color: #fafafa;
+            overflow: auto;
+            padding: 5px;
+            border: 1px solid #dfe4ea;
+        }
+
+
+        #items .radio-box input[type="radio"] {
+            display: none;
+        }
+    
+        #items .radio-box label {
+            background-color: #dfe6e9;
+            width: 100%;
+            padding: 4px 11px;
+            font-family: Arial;
+            cursor: pointer;
+            margin: 1px 0px;
+            font-family: var(--font-family-two);
+        }
+        
+        #items .radio-box input[type="radio"]:checked + label { 
+            background-color:#0071FE !important;
+            color: #FFF;
+        }

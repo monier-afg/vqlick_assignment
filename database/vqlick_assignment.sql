@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 25, 2020 at 11:32 PM
+-- Generation Time: Sep 25, 2020 at 11:46 PM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.3.11
 
@@ -41,19 +41,11 @@ CREATE TABLE `items` (
 --
 
 INSERT INTO `items` (`id`, `item`, `selected`, `last_update`, `time`) VALUES
-(5, 'item 1', 0, 1600956162, 1600956162),
-(6, 'item 2', 1, 1600956654, 1600956654),
-(7, 'item 4', 1, 1600956857, 1600956857),
-(8, 'aaa', 1, 1600956917, 1600956917),
-(9, 'vvv', 0, 1600956962, 1600956962),
-(10, 'qqq', 0, 1600957018, 1600957018),
-(11, 'ttt', 0, 1600957140, 1600957140),
-(12, 'rrr', 0, 1600957167, 1600957167),
-(13, 'uuu', 0, 1600957512, 1600957512),
-(14, 'monier', 1, 1600958851, 1600958851),
-(15, 'ahmed', 0, 1600960052, 1600960052),
-(16, 'abcd', 1, 1600960121, 1600960121),
-(17, 'monierr', 0, 1600962809, 1600962809);
+(1, 'item 1', 0, 1601070346, 1601070346),
+(2, 'item 2', 0, 1601070348, 1601070348),
+(3, 'item 3', 0, 1601070351, 1601070351),
+(4, 'item 4', 1, 1601070354, 1601070354),
+(5, 'item 5', 1, 1601070356, 1601070356);
 
 --
 -- Indexes for dumped tables
@@ -73,7 +65,7 @@ ALTER TABLE `items`
 -- AUTO_INCREMENT for table `items`
 --
 ALTER TABLE `items`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
